@@ -1,0 +1,32 @@
+main {
+	display: block;
+}
+a {text-decoration: none;}
+.portfolio-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 960px;
+}
+.portfolio-item {
+	width: 232.5px;
+	margin: 4px 0;
+}
+.text-areas {
+	padding: 2px 0 5px 5px;
+	border-bottom: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+}
+.text-areas h3 {color: #b9b9b9;}
+.text-areas p {color: #e8663c;}
+img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+.overlay {
+	background: rgba(57,34,21,85);
+}

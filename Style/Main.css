@@ -1,0 +1,190 @@
+@font-face {
+	font-family: Bebas;
+	src: url(../img/Jetro/fonts/BEBAS.ttf);
+}
+
+* {
+	word-spacing: 1px;
+	padding: 0;
+	margin: 0;
+	font-family: HelveticaNeue, Helvetica, Neue, Armo;
+}
+h1, h2, h3, h4, h5, h6, nav a, nav a b, input::placeholder, textarea::placeholder {
+	word-spacing: 2px;
+	font-family: Bebas;
+}
+
+.container {
+	background-image: url(../img/Jetro/pictures/bg.png);
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: auto 960px auto;
+	grid-template-areas: 
+	". header ."
+	"left main right"
+	"left-under footer right-under"; 
+}
+
+.footer-left, .right {
+	background: #f1ad9b;
+	height: 61px;
+	width: 100%;
+}
+.footer-left {
+	grid-area: left;
+}.footer-right {
+	grid-area: right;}
+.footer-left-under {
+	grid-area: left-under;
+}.footer-right-under {
+	grid-area: right-under;}
+.footer-left-under, .right-under {
+	background: #f1ad9b;
+	width: 100%;
+	height: 100%;
+}
+
+.section-line {
+	margin: 40px 0;
+	overflow: hidden;
+	height: 15px;
+}
+
+main {
+	display: grid;
+	grid-area: main;
+	grid-template-columns: 742px 218px;
+	grid-template-areas:
+	"title title"
+	"content sidebar";
+}
+.title {
+	color: white;
+	padding-left: 15px;
+	line-height: 61px;
+	grid-area: title;
+	height: 61px;
+	background: #e8603c;
+}
+.main {grid-area: content; padding: 0 10px 0 0;}
+.sidebar {
+	overflow: hidden;
+	grid-area: sidebar;
+}.sidebar h2{
+	width: 50%;
+	font-size: 1em;
+	color: #e8603c;
+	margin: 20px 0;
+}.sidebar p {
+	font-size: 0.8em;
+}
+.sidebar-line {
+	justify-content: space-between;
+	align-items: center;
+}
+.sidebar-line h2 {
+}
+.sidebar-line .imger {
+	overflow: hidden;
+	width: 50%;
+	height: 15px;
+}
+.sidebar-line .imger img{
+	height: 30px;
+	width: 1000px;
+}
+ul {
+	margin: 20px 0;
+	list-style: none;
+}
+.box-menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.box {
+	margin-bottom: 6px;
+	background: #f3af9d;
+	width: 48px;
+	height: 48px;
+	border: 1px solid #e8603c;
+}
+
+
+
+
+
+/* ---------- header ---------- */
+
+header {
+	height: 78px;
+	display: flex;
+	justify-content: space-between;
+	grid-area: header;
+}
+
+h1 {
+	color: #e8603c;
+	line-height: 78px;
+	margin-left: 5px;
+}
+h1 b, .active b {
+	color: #f3af9d;
+	font-family: Bebas;
+}
+nav {margin-right: 5px;}
+nav a{
+	color: #d9d9d9;
+	font-size: 1em;
+	text-decoration: none;
+	line-height: 78px;
+	padding: 5px 10px;
+}
+nav a:hover {
+	color: #e8663c;
+}
+.active {color: #e8663c;}
+/* ---------- main ---------- */
+main {
+	display: grid;*/
+	grid-area: main;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+	background: #e8663c;
+	grid-area: footer;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+footer section {
+	width: 300px;
+	margin: 10px 0px;
+}
+footer section h4 {
+	letter-spacing: 1px;
+	margin: 20px 0;
+}
+footer section p {
+	margin-top: 15px;
+}footer section p:first-child {
+	margin-top: 0;
+}footer section div {margin-bottom: 50px;}
+.follow-margin{margin-bottom: 25px;}
+.t-time {
+	color: #f3b29d;
+	margin-top: 6px;
+	margin-bottom: 20px;
+}.foot-color {color: #f3b29d; font-weight: normal;}
+.social-media-btns {margin-top: 30px;}
+
+
+
+
+
+/*-------------------- makkelijke classes -----------------*/
+
+.flex{ display: flex; }
+.flex-between{display: flex;justify-content: space-between;}

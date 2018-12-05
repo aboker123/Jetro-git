@@ -1,0 +1,63 @@
+.flex-box {
+	display: flex;
+}
+.details {
+	margin-right: 30px;
+	width: 190px;
+}
+form {
+	margin-left: 0px;
+}
+form input, textarea {
+	padding: 3px 5px;
+	border: 1px solid #e8663c;
+	border-radius: 3px;
+	margin: 5px 0;
+	display: block;
+	width: 216px;
+}
+input {
+	height: 25px;
+}
+input::placeholder, textarea::placeholder {
+	font-size: 14pt;	color:  #e8663c;
+}
+img {
+	margin: 20px 0;
+}
+textarea{
+	height: 230px;
+	width: 463.5px;
+}
+button {
+	border: none;
+	margin: 10px 0;
+	display: block;
+	color: white;
+	font-size: 14pt;
+	text-decoration: none;
+	padding: 5px 10px;
+	background: #e8663c;
+	border-radius: 2px;
+	font-family: Bebas;
+}
+button:hover {
+	cursor: pointer;
+}
+
+.p {
+	font-size: 12pt;
+	margin: 10px 0;
+}
+.details h3 {
+	font-size: 12pt;
+	color: #e8663c;
+	margin: 10px 0 0 0;
+}
+.addres {
+ margin: 0 0 10px 0;
+}
+.contact-gegevens {
+	font-size: 11pt;
+	margin-bottom: 10px;
+}

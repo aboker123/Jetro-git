@@ -1,0 +1,86 @@
+.fotos, .docs, .videos, .quotable-area, .links, .pages-numbers {
+	margin: 5px 0;
+}
+img {
+	width: 100%;
+}
+main p {
+	color: #414141;
+	font-size: 12pt;
+}
+main h2, h3, h4, h5, h6 {
+	color: #e8663c;
+}
+.title h2{
+	letter-spacing: 1px;
+	color: white;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-left: -85px;
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	background: #e8663c;
+}.icon p {
+	margin-bottom: -50px;
+	font-size: 80pt;
+	color: white;
+}
+
+.tags{
+	color: ;
+}
+.tags p:first-child {
+	border-right: 1px solid #d9d9d9;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+.date-tags-comment {
+	margin-right: 25px;
+}
+.date-tags-comment h3 {
+	margin: 5px 0 5px 0;
+}
+.date-tags-comment p {
+	color: #d9d9d9;
+	margin: 0 0 10px 0;
+}
+.blog-description h3 {
+	margin: 5px 0;
+}
+.blog-description p {
+	margin: 15px 0;
+}
+
+.pages-numbers p{
+	margin: 5px;
+	width: 15px;
+	height: 15px;
+	background: #e8663c;
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+.quote-info {
+    align-items: center;
+	padding: 0 10px;
+	height: 75px;
+	font-size: 8pt;
+	background: #f2f2f2;
+}
+.quote-info h3{
+	margin-right: 10px;
+	color: #e8663c;margin: 0 5px;
+	font-size: 40pt;
+}
+.quote-info p {
+	color: #474747;
+}
+.links a {
+	font-size: 9pt;
+	text-decoration: none;
+	color: #a6a6a6;
+}

@@ -1,0 +1,135 @@
+main {
+	display: grid;
+	grid-area: main;
+	grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+	grid-template-areas:
+	""
+	""
+	"";
+}
+
+.slider {
+	margin-bottom: 5px;
+	height: 401px;
+	width: 100%;
+	grid-column: 1/13;
+	background-image: url("../img/Jetro/pictures/home.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+}
+.description {
+	display: inline-block;
+    padding: 25px;
+	background: rgba(232,102,60,0.75);
+	width: 416px;
+	position: relative;
+	bottom: -250px;
+	left: 36px;
+}
+.description p{
+	color: white;
+	font-size: 0.8em;
+}
+.description h2 {
+	margin-bottom: 10px;
+	color: white;
+	font-size: 1em;
+}
+.news {
+	margin: 5px 0;
+	display: flex;
+	justify-content: space-between;
+	grid-row: 2;
+	grid-column: 1/13;
+}
+.portfolio {
+	margin: 5px;
+	margin-bottom: 30px;
+	grid-row: 3;
+	grid-column: 1/5;
+	font-size: 1em;
+}
+.work {
+	margin: 5px;
+	margin-bottom: 30px;
+	grid-row: 3;
+	grid-column: 5/9;
+	font-size: 1em;
+
+}
+.conected {
+	margin: 5px;
+	margin-bottom: 30px;
+	grid-row: 3;
+	grid-column: 9/13;
+	font-size: 1em;
+
+}
+.portfolio p, .work p, .conected p {
+	font-size: 0.75em;
+	margin-bottom: 30px;
+} .icon-h2 {
+	color: #e8663c;
+	margin: 20px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+} .icon-h2 h2 {
+	margin: 0 15px;
+	font-size: 1em;
+}
+.btn-more {
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	padding: 5px 10px;
+	background: #e8663c;
+	border-radius: 2px;
+	font-family: Bebas;
+}
+.recent-works {
+	grid-column: 1/13;
+	margin: 10px 0;
+}
+.recent-works h2{
+	margin: 10px 0 20px 0;
+	color: #e8663c;
+}
+.desing-flex {
+	justify-content: space-between;
+	display: flex;
+}
+.recent-works-line {
+	margin: 20px 0;
+	height: auto;
+	align-items: center;
+	overflow: hidden;
+}.recent-works-line img {
+	margin: 0 0 0 20px;
+	height: 100%;
+}.recent-works-line h2 {
+	margin: 0;
+	font-size: 1.2em;
+	align-items: center;
+}
+.recent-works div div {
+	border: 1px solid #d9d9d9;border-radius: 0 0 3px 3px;
+}
+.recent-works div div div {
+	font-weight: bold;
+	margin: 7px 0;
+	border: none;
+}
+.recent-works div div div p {
+	font-family: Bebas;
+	color: #e8663c;
+	margin: 0 10px;
+	font-size: 0.75em;
+}
+.recent-works h3{
+	letter-spacing: 1px;
+	color: #b9b9b9;
+	font-size: 1em;
+	margin: 0 10px;
+}
